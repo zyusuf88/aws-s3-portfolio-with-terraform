@@ -9,7 +9,7 @@
   - [Installation Instructions](#installation-instructions)
   - [Usage](#usage)
   - [Cleanup](#cleanup)
-  - [Best Practices](#best-practices)
+  - [Benefits of using Terraform](#benefits-of-using-terraform)
   - [Resources](#resources)
 
 
@@ -128,7 +128,7 @@ The `terraform destroy` command is used to destroy the resources created by Terr
 
 
 
-## Best Practices
+## Benefits of using Terraform
 
 Using Terraform for infrastructure provisioning offers several benefits, including:
 
