@@ -85,8 +85,8 @@ This command initialises Terraform within the current directory. It downloads th
    
 The `terraform plan` command generates an execution plan based on the configured infrastructure in `main.tf`. It shows **what actions Terraform will take** to create, modify, or delete resources. This step allows you to review the changes before applying them.
 
+<img width="347" alt="image" src="https://github.com/zyusuf88/aws-s3-terraform/assets/97973445/605d3333-585e-451b-8f9a-fa0e8c35b54d">
 
-![Screenshot 2024-06-03 221125](https://github.com/zyusuf88/aws-s3-terraform/assets/97973445/91248a69-6a05-4008-a4e1-477e4a0e9c88)
 
 <br>
 
