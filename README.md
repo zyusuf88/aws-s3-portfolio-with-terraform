@@ -107,7 +107,7 @@ The `terraform apply` command applies the changes described in the Terraform con
 
  Once the provisioning is complete, you can access the S3 bucket and its configured features on the AWS Management Console or programmatically through the AWS CLI or SDKs.
 
-7.**Access the Portfolio Page:**
+7. **Access the Portfolio Page:**
  Once the provisioning is complete, you can access your portfolio page using the S3 bucket website endpoint. The endpoint URL follows the pattern:
 
  `http://<your-bucket-name>.s3-website-<AWS-region>.amazonaws.com`
