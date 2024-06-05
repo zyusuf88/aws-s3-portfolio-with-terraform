@@ -113,7 +113,12 @@ To avoid incurring unnecessary costs, make sure to destroy the resources provisi
 
 The `terraform destroy` command is used to destroy the resources created by Terraform according to the configuration in `main.tf`. Adding the `--auto-approve` flag skips the interactive approval prompt, automatically destroying all resources without requiring manual confirmation. This ensures a smoother cleanup process, especially when running Terraform in automated or scripted environments.
 
+<img width="371" alt="image" src="https://github.com/zyusuf88/aws-s3-terraform/assets/97973445/7bec0a46-bc1a-4ffa-8a3b-6fe2d8480015">
+<br>
+
 **Once the destruction process is complete, all provisioned resources will be removed from your AWS account, helping you avoid unnecessary charges.**
+
+
 
 ## Best Practices
 
