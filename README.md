@@ -39,6 +39,15 @@ The main.tf file in this repository defines the infrastructure using Terraform c
 
 Before you begin, ensure you have the following prerequisites installed:
 
+- **AWS Account**: You will need an AWS account. 
+- **Obtain AWS Credentials:**: 
+   - Log in to the AWS Management Console.
+   - **Navigate to IAM > Users > Your Username > Security credentials.**
+    - Under Access keys, click **Create access key and download the credentials.**
+- **Configure AWS CLI:**
+     - `aws configure`
+     - Then enter your Access Key ID, Secret Access Key and region (e.g., us-west-2)
+
 - **Terraform**: Terraform is required to provision and manage resources on AWS. You can install Terraform on Mac and Windows by following the instructions on the official website: [Terraform Installation Guide](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
 ## Installation Instructions
@@ -68,18 +77,17 @@ You should see the Terraform version displayed if it's installed correctly.
 
 ## Usage
 
-1. Clone this repository to your local machine: `https://github.com/zyusuf88/aws-s3-terraform.git`
+1. **Clone this repository to your local machine:** `https://github.com/zyusuf88/aws-s3-terraform.git`
 
-2. Navigate to the directory containing the cloned repository: `cd aws-s3-terraform `
+2.** Navigate to the directory containing the cloned repository:** `cd aws-s3-terraform `
 
 
-3. Initialise Terraform: `terraform init`
+3. **Initialise Terraform:** `terraform init`
 
 This command initialises Terraform within the current directory. It downloads the necessary provider plugins specified in the configuration and sets up the working directory.
 
-4. Review the `main.tf` file and make any necessary adjustments (e.g., update variable values).
-
-5. Plan the Terraform changes:
+1. **Review the `main.tf` file:**  and make any necessary adjustments (e.g., update variable values).
+2. **Plan the Terraform changes:**
    
    `terraform plan`
    
@@ -90,7 +98,7 @@ The `terraform plan` command generates an execution plan based on the configured
 
 <br>
 
-6. Apply the Terraform configuration to create the S3 bucket:
+6. **Apply the Terraform configuration to create the S3 bucket:**
 `terraform apply --auto-approve` 
 
 
@@ -99,7 +107,7 @@ The `terraform apply` command applies the changes described in the Terraform con
 
  Once the provisioning is complete, you can access the S3 bucket and its configured features on the AWS Management Console or programmatically through the AWS CLI or SDKs.
 
-7. Access the Portfolio Page:
+7.**Access the Portfolio Page:**
  Once the provisioning is complete, you can access your portfolio page using the S3 bucket website endpoint. The endpoint URL follows the pattern:
 
  `http://<your-bucket-name>.s3-website-<AWS-region>.amazonaws.com`
