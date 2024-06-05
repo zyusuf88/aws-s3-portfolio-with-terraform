@@ -3,12 +3,13 @@
 - [AWS S3 Bucket Creation using Terraform](#aws-s3-bucket-creation-using-terraform)
   - [Introduction](#introduction)
   - [Project Overview](#project-overview)
+    - [Files Used](#files-used)
   - [Diagram](#diagram)
   - [Prerequisites](#prerequisites)
   - [Installation Instructions](#installation-instructions)
   - [Usage](#usage)
   - [Cleanup](#cleanup)
-  - [Best Practices:](#best-practices)
+  - [Best Practices](#best-practices)
   - [Resources](#resources)
 
 
@@ -23,6 +24,11 @@ Terraform is an open-source infrastructure as code (IaC) tool created by HashiCo
 ## Project Overview
 
 The main.tf file in this repository defines the infrastructure using Terraform configuration language. It creates an S3 bucket with the specified bucket name and sets up various configurations for bucket ownership, public access, ACLs, object uploads, and website hosting. Additionally, it uploads the portfolio page files (index.html, error.html, and image.png) to the S3 bucket, making them publicly accessible.
+
+### Files Used
+- **index.html**: The main entry point of your portfolio website.
+- **error.html**: A custom error page that visitors see when they encounter a problem accessing your site, such as a 404 error (page not found).
+- **image.png**: An example image file used in your portfolio.
 
 ## Diagram
 
@@ -109,7 +115,7 @@ The `terraform destroy` command is used to destroy the resources created by Terr
 
 **Once the destruction process is complete, all provisioned resources will be removed from your AWS account, helping you avoid unnecessary charges.**
 
-## Best Practices:
+## Best Practices
 
 Using Terraform for infrastructure provisioning offers several benefits, including:
 
