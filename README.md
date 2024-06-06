@@ -1,6 +1,6 @@
-# AWS S3 Bucket Creation using Terraform
+# AWS S3 Bucket using Terraform
 
-- [AWS S3 Bucket Creation using Terraform](#aws-s3-bucket-creation-using-terraform)
+- [AWS S3 Bucket using Terraform](#aws-s3-bucket-using-terraform)
   - [Introduction](#introduction)
   - [Project Overview](#project-overview)
     - [Files Used](#files-used)
